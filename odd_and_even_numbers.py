@@ -14,3 +14,5 @@ with open('numbers.txt', 'r') as file:
 
 # Convert the strings into integers
 numbers = [int(num.strip()) for num in numbers]
+
+print (numbers)
