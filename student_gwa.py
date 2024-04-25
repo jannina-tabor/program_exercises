@@ -19,3 +19,8 @@ highest_gwa_of_student = ""
 for data in student_data: 
     name = data.strip().split('- GWA: ')
     gwa = float(gwa)
+
+# Find who has the highest GWA
+    if gwa > highest_gwa:
+        highest_gwa = gwa
+        highest_gwa_of_student = name.strip()
