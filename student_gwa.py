@@ -12,7 +12,7 @@ with open('students_and_gwa.txt','r') as file:
     student_data = file.readlines()
 
 # Initialize the variables
-highest_gwa = 1.0         # 1.0 as the starting point of the GWA (based from the grading system in the Philippines)
+highest_gwa = 5.0         # Starting point of the GWA (based from the grading system in the Philippines)
 student_highest_gwa = ""     
 
 # Split and Strip the name and GWA from the .txt file
