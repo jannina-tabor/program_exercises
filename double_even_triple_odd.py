@@ -14,7 +14,7 @@ with open('integers.txt', 'r') as file:
     lines = file.readlines()
 
 # Conversion of strings to integers
-numbers = [int(num.strip()) for num in lines]
+numbers = [int(line.strip()) for line in lines]
 
 # Separation of odd and even numbers 
 even_numbers = [num for num in numbers if num % 2 == 0]
