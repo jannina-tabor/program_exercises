@@ -21,8 +21,8 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 
 # Calculations of Even squares and Odd cubes
-even_squares = [even_numbers ** 2]
-odd_cubes = [odd_numbers ** 3]
+even_squares = [num ** 2 for num in even_numbers]
+odd_cubes = [num ** 3 for num in odd_numbers]
 
 # Write even squares to a new text file as 'double.txt'
 with open ('double.txt', 'w') as even_file:
