@@ -9,4 +9,5 @@
 # Exit the loop of the while function
 # Create an print function to tell the user the file is closed
 
-
+# Write a text file by urging the users to input a line of text
+with open('mylife.txt', 'w') as file:
