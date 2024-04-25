@@ -11,3 +11,4 @@
 
 # Write a text file by urging the users to input a line of text
 with open('mylife.txt', 'w') as file:
+    while True:
