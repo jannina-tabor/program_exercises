@@ -11,3 +11,7 @@
 with open('students_and_gwa.txt','r') as file:
     student_data = file.readlines()
 
+# Initialize the variables
+highest_gwa = 0         # 0 as the starting point of the GWA
+highest_gwa_of_student = ""     
+
