@@ -21,7 +21,7 @@ for data in student_data:
     gwa = float(gwa)
 
 # Find who has the highest GWA
-    if gwa > highest_gwa:
+    if gwa < highest_gwa:
         highest_gwa = gwa
         student_highest_gwa = name.strip()
 
