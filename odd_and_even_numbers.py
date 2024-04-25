@@ -17,15 +17,15 @@ with open('numbers.txt', 'r') as file:
 numbers = [int(num.strip()) for num in numbers]
 
 # Separation of odd and even numbers
-odd_numbers = [num for num in numbers if num % 2 == 0]
-even_number = [num for num in numbers if num % 2 != 0]
+even_numbers = [num for num in numbers if num % 2 == 0]
+odd_number = [num for num in numbers if num % 2 != 0]
 
 # Print the Even numbers
 print ("Even numbers: ")
-for num in even_number: 
+for num in even_numbers:
     print (num)
 
 # Print the Odd numbers
 print ("\nOdd numbers: ")
-for num in odd_numbers:
+for num in odd_number:
     print (num)
