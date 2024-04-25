@@ -3,3 +3,4 @@
 # Create a text file that contains 20 integers named "numbers.txt"
 # Create a line of code that reads numbers from the text file"
 # Convert the strings from the number.txt into integers"
+# Separate the odd and even numbers from the file
