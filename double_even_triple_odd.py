@@ -20,6 +20,10 @@ numbers = [int(line.strip()) for line in lines]
 even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 
+# Print the odd and even numbers
+print("Even numbers:", even_numbers)
+print("Odd numbers: ", odd_numbers)
+
 # Calculations of Even squares and Odd cubes
 even_squares = [num ** 2 for num in even_numbers]
 odd_cubes = [num ** 3 for num in odd_numbers]
