@@ -17,7 +17,7 @@ student_highest_gwa = ""
 
 # Split and Strip the name and GWA from the .txt file
 for data in student_data: 
-    name = data.strip().split('- GWA: ')
+    name , gwa = data.strip().split('- GWA: ')
     gwa = float(gwa)
 
 # Find who has the highest GWA
