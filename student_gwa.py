@@ -13,7 +13,7 @@ with open('students_and_gwa.txt','r') as file:
 
 # Initialize the variables
 highest_gwa = 0         # 0 as the starting point of the GWA
-highest_gwa_of_student = ""     
+student_highest_gwa = ""     
 
 # Split and Strip the name and GWA from the .txt file
 for data in student_data: 
@@ -23,4 +23,9 @@ for data in student_data:
 # Find who has the highest GWA
     if gwa > highest_gwa:
         highest_gwa = gwa
-        highest_gwa_of_student = name.strip()
+        student_highest_gwa = name.strip()
+
+# Output of the name of the student with the highest GWA and their respective GWA
+print("Congratulations!")
+print("Name: ", student_highest_gwa)
+print("GWA: ", highest_gwa)
