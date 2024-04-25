@@ -29,3 +29,8 @@ for num in even_numbers:
 print ("\nOdd numbers: ")
 for num in odd_number:
     print (num)
+
+# Write even numbers to even.txt
+with open('even.txt', 'w') as even_file:
+    for num in even_numbers:
+        even_file.write(str(num) + '\n')
