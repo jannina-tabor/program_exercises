@@ -39,3 +39,5 @@ with open('even.txt', 'w') as even_file:
 with open ('odd.txt', 'w') as odd_file:
     for num in odd_numbers:
         odd_file.write(str(num) + '\n')
+
+print ("\nOutput files 'even.txt' and 'odd.txt' has successfully been created. Check your directory.")
