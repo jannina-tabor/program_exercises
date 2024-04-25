@@ -11,18 +11,18 @@
 
 # Read the source file from 'integers.txt'
 with open('integers.txt', 'r') as file:
-    numbers = file.readlines
+    lines = file.readlines()
 
 # Conversion of strings to integers
-numbers = [int(num.strip()) for num in numbers]
+numbers = [int(num.strip()) for num in lines]
 
 # Separation of odd and even numbers 
-even_numbers = (num for num in numbers if num % 2 == 0)
-odd_numbers = (num for num in numbers if num % 2 != 0)
+even_numbers = [num for num in numbers if num % 2 == 0]
+odd_numbers = [num for num in numbers if num % 2 != 0]
 
 # Calculations of Even squares and Odd cubes
-even_squares = (even_numbers ** 2)
-odd_cubes = (odd_numbers ** 3)
+even_squares = [even_numbers ** 2]
+odd_cubes = [odd_numbers ** 3]
 
 # Write even squares to a new text file as 'double.txt'
 with open ('double.txt', 'w') as even_file:
