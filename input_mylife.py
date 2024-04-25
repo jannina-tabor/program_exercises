@@ -14,4 +14,4 @@ with open('mylife.txt', 'w') as file:
     while True:
         user_line = input("Please enter a line/phrase: ")
         file.write(user_line + '\n')
-        
+        print ("A line is added to your text file 'mylife.txt'")
