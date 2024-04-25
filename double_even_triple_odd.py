@@ -23,3 +23,9 @@ odd_numbers = (num for num in numbers if num % 2 != 0)
 # Calculations of Even squares and Odd cubes
 even_squares = (even_numbers ** 2)
 odd_cubes = (odd_numbers ** 3)
+
+# Write even squares to a new text file as 'double.txt'
+with open ('double.txt', 'w') as even_file:
+    for square in even_squares:
+        even_file.write(str(square) + '\n')
+
