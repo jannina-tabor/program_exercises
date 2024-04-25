@@ -29,14 +29,14 @@ even_squares = [num ** 2 for num in even_numbers]
 odd_cubes = [num ** 3 for num in odd_numbers]
 
 # Write even squares to a new text file as 'double.txt'
-#with open ('double.txt', 'w') as even_file:
-    #for square in even_squares:
-        #even_file.write(str(square) + '\n')
+with open ('double.txt', 'w') as even_file:
+    for square in even_squares:
+        even_file.write(str(square) + '\n')
 
 # Write odd cubes to a new text file as 'triple.txt'
-#with open ('triple.txt' , 'w') as odd_file:
-    #for cube in odd_cubes:
-        #odd_file.write(str(cube) + '\n')
+with open ('triple.txt' , 'w') as odd_file:
+    for cube in odd_cubes:
+        odd_file.write(str(cube) + '\n')
 
 # Make the user know that the file is created
-#print ("The text files of odd cubes and even squares named as 'double.txt' and 'triple.txt' have been successfully created.")
+print ("The text files of odd cubes and even squares named as 'double.txt' and 'triple.txt' have been successfully created. Check your directory.")
