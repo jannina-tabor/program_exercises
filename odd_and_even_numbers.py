@@ -11,3 +11,4 @@
 #Read numbers from number.txt
 with open('number.txt', 'r') as file:
     numbers = file.readlines()
+    print (numbers)
