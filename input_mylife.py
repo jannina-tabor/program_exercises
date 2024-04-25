@@ -18,4 +18,4 @@ with open('mylife.txt', 'w') as file:
         need_more = input("Are there more lines? (y/n): ")
         if need_more.lower() != 'y': 
             file.close()
-            
+            print ("File now is closed. Thank you for inputting your lines in 'mylife.txt'")
