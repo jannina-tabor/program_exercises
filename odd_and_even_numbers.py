@@ -24,3 +24,8 @@ even_number = [num for num in numbers if num % 2 != 0]
 print ("Even numbers: ")
 for num in even_number: 
     print (num)
+
+# Print the Odd numbers
+print ("\nOdd numbers: ")
+for num in odd_numbers:
+    print (num)
