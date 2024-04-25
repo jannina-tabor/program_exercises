@@ -15,3 +15,7 @@ with open('students_and_gwa.txt','r') as file:
 highest_gwa = 0         # 0 as the starting point of the GWA
 highest_gwa_of_student = ""     
 
+# Split and Strip the name and GWA from the .txt file
+for data in student_data: 
+    name = data.strip().split('- GWA: ')
+    gwa = float(gwa)
