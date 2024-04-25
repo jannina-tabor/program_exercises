@@ -7,3 +7,7 @@
 # Creating an if function to determine who has the highest GWA
 # Creating an output function to determine if the program is working
 
+# Read the text file containing the names and their GWAs
+with open('students_and_gwa.txt','r') as file:
+    student_data = file.readlines()
+
