@@ -17,3 +17,4 @@ numbers = [int(num.strip()) for num in numbers]
 
 # Separation of odd and even numbers
 odd_numbers = [num for in numbers if num % 2 == 0]
+even_number = [num for num in numbers if num % 2 != 0]
