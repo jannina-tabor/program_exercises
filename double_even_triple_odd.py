@@ -12,3 +12,6 @@
 # Read the source file from 'integers.txt'
 with open('integers.txt', 'r') as file:
     numbers = file.readlines
+
+# Conversion of strings to integers
+numbers = [int(num.strip()) for num in numbers]
