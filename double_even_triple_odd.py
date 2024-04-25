@@ -15,3 +15,8 @@ with open('integers.txt', 'r') as file:
 
 # Conversion of strings to integers
 numbers = [int(num.strip()) for num in numbers]
+
+# Separation of odd and even numbers 
+even_numbers = (num for num in numbers if num % 2 == 0)
+odd_numbers = (num for num in numbers if num % 2 != 0)
+
