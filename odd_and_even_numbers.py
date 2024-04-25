@@ -9,6 +9,6 @@
 # Test the program created
 
 #Read numbers from number.txt
-with open('number.txt', 'r') as file:
+with open('numbers.txt', 'r') as file:
     numbers = file.readlines()
     print (numbers)
