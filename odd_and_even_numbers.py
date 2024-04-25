@@ -18,7 +18,7 @@ numbers = [int(num.strip()) for num in numbers]
 
 # Separation of odd and even numbers
 even_numbers = [num for num in numbers if num % 2 == 0]
-odd_number = [num for num in numbers if num % 2 != 0]
+odd_numbers = [num for num in numbers if num % 2 != 0]
 
 # Print the Even numbers
 print ("Even numbers: ")
@@ -27,7 +27,7 @@ for num in even_numbers:
 
 # Print the Odd numbers
 print ("\nOdd numbers: ")
-for num in odd_number:
+for num in odd_numbers:
     print (num)
 
 # Write even numbers to even.txt
@@ -37,5 +37,5 @@ with open('even.txt', 'w') as even_file:
 
 # Write odd numbers to odd.txt
 with open ('odd.txt', 'w') as odd_file:
-    for num in odd_number:
+    for num in odd_numbers:
         odd_file.write(str(num) + '\n')
