@@ -9,3 +9,6 @@
 # Create a write function for the odd cubes naming 'triple.txt'
 # Make the user know that the text files have been created
 
+# Read the source file from 'integers.txt'
+with open('integers.txt', 'r') as file:
+    numbers = file.readlines
