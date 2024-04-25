@@ -35,4 +35,4 @@ with open ('triple,txt' , 'w') as odd_file:
         odd_file.write(str(cube) + '\n')
 
 # Make the user know that the file is created
-print ("The text files of odd cubes and even squares named as 'double.tx' and 'triple.txt' have been successfully created.")
+print ("The text files of odd cubes and even squares named as 'double.txt' and 'triple.txt' have been successfully created.")
