@@ -17,4 +17,5 @@ with open('mylife.txt', 'w') as file:
         print ("A line is added to your text file 'mylife.txt'")
         need_more = input("Are there more lines? (y/n): ")
         if need_more.lower() != 'y': 
+            file.close()
             
