@@ -20,3 +20,6 @@ numbers = [int(num.strip()) for num in numbers]
 even_numbers = (num for num in numbers if num % 2 == 0)
 odd_numbers = (num for num in numbers if num % 2 != 0)
 
+# Calculations of Even squares and Odd cubes
+even_squares = (even_numbers ** 2)
+odd_cubes = (odd_numbers ** 3)
